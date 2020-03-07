@@ -1,0 +1,821 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    text-transform: uppercase;
+}
+
+h2 {
+    font: 400 25px/60px Lato;
+    letter-spacing: 3.75px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font: 300 12px/10px Lato;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font: 400 14px/30px Lato;
+    letter-spacing: 1.4px;
+}
+
+.imgbutton {
+    background-color: transparent;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+#top {
+    margin: 9px 0 12px 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    font: 300 10px/10px Lato;
+    letter-spacing: 1.5px;
+}
+
+#top p {
+    display: inline-block;
+    padding: 0px 6%;;
+}
+
+#top p:nth-child(2) {
+    border-left: .5px solid rgba(0, 0, 0, .12);
+    border-right: .5px solid rgba(0, 0, 0, .12);
+}
+
+nav {
+    box-shadow: 3px 1px 8px #0000000F;
+    height: 120px;
+}
+
+#title {
+    overflow: hidden;
+    text-align: center;
+    margin: 0 7%;
+}
+
+.lojas {
+    margin-top: 35px;
+    float: left;
+}
+
+#eurico {
+    margin-right: 40px;
+
+    font: Bold 9px/10px Lato;
+    letter-spacing: 1.8px;
+    color: #C00018;
+}
+
+#logo {
+    display: inline-block;
+
+    height: 48px;
+    width: 170px;
+    
+    margin-top: 14px;
+    background-image: url("../imgs/Screen\ Shot\ 2020-03-05\ at\ 12.25.35\ PM.png");
+    background-size: cover;
+}
+
+#user {
+    float: right;
+}
+
+#busca {
+    height: 30px;
+    width: 160px;
+    border: none;
+    border-bottom: .5px solid black;
+}
+
+#busca::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-transform: capitalize;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 9px;
+}
+
+#busca::-moz-placeholder { /* Firefox 19+ */
+    text-transform: capitalize;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 9px;
+}
+
+#busca:-moz-placeholder { /* Firefox 18- */
+    text-transform: capitalize;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 9px;
+}
+
+#lupa {
+    height: 24px;
+    width: 24px;
+    background-image: url('../imgs/Screen\ Shot\ 2020-03-05\ at\ 2.26.59\ PM.png');
+    background-size: cover;
+    border: none;
+}
+
+#perfil {
+    height: 25px;
+    width: 20px;
+    background-image: url('../imgs/Screen\ Shot\ 2020-03-05\ at\ 2.26.20\ PM.png');
+    background-size: cover;
+    border: none;
+    
+    margin: 30px 15px 0 30px;
+}
+
+#sacola {
+    height: 25px;
+    width: 18px;
+    background-image: url('../imgs/Screen\ Shot\ 2020-03-05\ at\ 2.25.49\ PM.png');
+    background-size: cover;
+
+    border: none;
+}
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#menu li {
+    padding: 0 42px;
+}
+
+/* #banner2 {
+    background-image: url('../imgs/Imagem\ 36.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+
+#banner {
+    height: 45em;
+    margin: 0 11%;
+    text-align: center;
+
+    background-image: url('../imgs/Imagem\ 35.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#elements {
+    margin-left: 50%;
+}
+
+#banner p:first-child {
+    font: 300 20px/20px Lato;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+
+    display: inline-block;
+    padding-top: 10em;
+}
+
+#banner p:nth-child(2) {
+    font: Light 16px/20px Lato;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+
+    display: inline-block;
+}
+
+#banner p:nth-child(3) {
+    font: 900 89px/90px Lato;
+    letter-spacing: 1.78px;
+    color: #FFFFFF;
+}
+
+#banner p:last-of-type {
+    text-transform: initial;
+    font: 400 12px/23px Lato;
+    letter-spacing: 1.2px;
+    color: #FFFFFF;
+
+    padding: 12px 25%;
+}
+
+#banner button {   
+    font: 400 12px/12px Lato;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+
+    margin: 45px 5px;
+}
+
+#banner .gender {
+    width: 200px;
+    height: 45px;
+}
+
+#banner .gender:hover {
+    background-color: white;
+    color: black;
+}
+
+#banner .arrow {
+    width: 50px;
+    height: 50px;
+
+    font-weight: 300;
+    font-size: 40px;
+
+    float: right;
+
+    /* margin-right: 20px; */
+}
+
+#newcollection {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#coluna1, #coluna2 {
+    display: inline-block;
+    margin-bottom: 75px;
+}
+
+#coluna1 {
+    margin-top: 70px;;
+}
+
+#coluna2 {
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+#teniscasual, #tenisesportivo {
+    width: 370px;
+    height: 270px;
+    padding-top: 50px;
+}
+
+#womancollection, #mancollection {
+    width: 370px;
+    height: 450px;
+    padding-top: 200px;
+    background-size: cover;
+}
+
+#teniscasual {
+    background-image: url('../imgs/Imagem\ 135\ copy.png');
+    
+    margin-bottom: 20px;
+}
+
+#womancollection {
+    background-image: url('../imgs/Imagem\ 134\ copy.png');
+}
+
+#mancollection {
+    background-image: url('../imgs/man\ copy.png');
+
+    margin-bottom: 20px;
+}
+
+#tenisesportivo {
+    background-image: url('../imgs/tenisesportivo.png');
+}
+
+.confira {
+    width: 185px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+
+    font: 700 12px/12px Lato;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+
+.fontemenorbold, .fontemenorregular {
+    padding-bottom: 10px;
+}
+
+.fontemenorbold {
+    font: 700 18px/18px Lato;
+    letter-spacing: 5.4px;
+    color: #FFFFFF;
+}
+
+.fontemenorregular {
+    font: 400 16px/16px Lato;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+.fontemaioroutline {
+    font: 900 75px/75px Lato;
+    letter-spacing: 1.5px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+
+    padding-bottom: 30px;
+}
+
+.fontemaior {
+    font: 900 70px/70px Lato;
+    letter-spacing: 1.4px;
+    color: #FFFFFF;
+
+    padding-bottom: 45px;
+}
+
+#produtos {
+    height: 670px;
+    /* background-color: blueviolet; */
+}
+#maisvendidos {
+    text-align: center;
+}
+
+#maisvendidos a {
+    font: 300 Italic 12px/12px Lato;
+    letter-spacing: 1.8px;
+}
+
+#maisvendidos a:last-child {
+    font: 900 Italic 12px/12px Lato;
+    color: #D82532;
+    margin:10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #D82532;
+}
+
+#sandalias {
+    overflow: hidden;
+    text-align: center;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.sandalia {
+    width: 254px;
+    height: 515px;
+    /* background-color: blueviolet; */
+    
+    text-align: center;
+    font: 300 12px/18px Lato;
+    letter-spacing: 1.8px;
+
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#sombra {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 8px #00000026;
+}
+
+#sandalia1 {
+    width: 254px;
+    height: 254px;
+
+    background-image: url('../imgs/Imagem\ 105.png');
+    background-size: cover;
+}
+
+#sandalia2 {
+    width: 254px;
+    height: 254px;
+
+    background-image: url('../imgs/Imagem\ 106.png');
+    background-size: cover;
+}
+
+#sandalia3 {
+    width: 254px;
+    height: 254px;
+
+    background-image: url('../imgs/Imagem\ 107.png');
+    background-size: cover;
+}
+
+#sandalia4 {
+    width: 254px;
+    height: 254px;
+
+    background-image: url('../imgs/Imagem\ 110.png');
+    background-size: cover;
+}
+
+.sandalia p:first-of-type {
+    margin-top: 40px;
+}
+
+.sandalia p:last-of-type {
+    margin-top: 20px;
+}
+
+.sandalia button {
+    width: 221px;
+    height: 45px;
+    border:  1px solid #ffffff;
+    margin-top: 24px;
+}
+
+#comprar {
+    width: 221px;
+    height: 45px;
+    border: 1px solid #000000;
+    margin-top: 40px;
+}
+
+#esquerda, #direita {    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 24px;
+    height: 515px;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#esquerda {
+    background-image: url('../imgs/seta-esq.png');
+    
+}
+
+#direita {
+    background-image: url('../imgs/seta-dir.png');
+}
+
+
+
+
+
+
+
+#ofertas {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    /* background-color: cadetblue; */
+}
+
+.ofertas {
+    /* display: inline-block; */
+    width: 300px;
+    height: 390px;
+    background-size: cover;
+
+    margin: 0 10px;
+}
+
+#melhoressneakers {
+    margin-top: 60px;
+    background-image: url('../imgs/Captura\ de\ Tela\ 2020-02-03\ às\ 12.45.54\ copy.png');
+}
+
+#ofertasimperdiveis {
+    background-image: url('../imgs/Captura de Tela 2020-02-03 às 12.45.46 copy.png');
+}
+
+#novacolecao {
+    margin-top: 60px;
+    background-image: url('../imgs/Captura de Tela 2020-02-03 às 12.45.38\ copy.png');
+}
+
+.ofertas button {
+    margin-top: 35px;
+
+    width: 185px;
+    height: 45px;
+
+    font: 700 12px/12px Lato;
+    letter-spacing: 1.8px;
+    color: #FFFFFF;
+}
+
+#p1 {
+    font: 400 22px/22px Lato;
+    letter-spacing: 1.1px;
+    color: #FFFFFF;
+
+    margin-top: 170px;
+}
+
+#p2 {
+    font: 900 50px/50px Lato;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+#p3 {
+    font: 900 60px/60px Lato;
+    letter-spacing: 1.2px;
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+
+    margin-top: 130px;
+}
+
+#p4 {
+    font: 900 29px/29px Lato;
+    letter-spacing: 1.45px;
+    color: #FFFFFF;
+}
+
+#p5 {
+    font: 900 22px/22px Lato;
+    letter-spacing: 6.6px;
+    color: #FFFFFF;
+
+    margin-top: 170px;
+}
+
+#p6 {
+    font: 300 50px/50px Lato;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+#about {
+    text-align: center;
+    margin: 0 15% 60px 15%;
+}
+
+#about h2 {
+    margin: 36px;
+    font: 300 25px/35px Lato;
+    letter-spacing: 3.75px;
+}
+
+#about p {
+    text-transform: initial;
+    font: 300 12px/25px Lato;
+    letter-spacing: 1.2px;
+}
+
+#newsletter{
+    overflow: hidden;
+    text-align: center;
+
+    margin: 30px 15%;
+}
+
+#text {
+    float: left;
+}
+
+#newsletter p {
+    margin-top: 23px;
+    text-transform: initial;
+    font: 300 12px/25px Lato;
+    letter-spacing: 1.2px;
+}
+
+#email {
+    margin-left: 30px;
+    margin-top: 65px;
+
+    height: 45px;
+    width: 400px;
+    border: none;
+    border-bottom: .5px solid black;
+}
+
+#email::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    text-transform: uppercase;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 30px;
+}
+
+#email::-moz-placeholder { /* Firefox 19+ */
+    text-transform: uppercase;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 30px;
+}
+
+#email:-moz-placeholder { /* Firefox 18- */
+    text-transform: uppercase;
+    font: 300 12px/60px Lato;
+    letter-spacing: 1.2px;
+    color: rgba(0, 0, 0, 0.48);
+    padding: 30px;
+}
+
+#enter {
+    float: right;
+    margin-top: 65px;
+
+    width: 190px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid black;
+
+    text-transform: uppercase;
+    font: 300 12px/15px Lato;
+    letter-spacing: 1.2px;
+}
+
+#extras {
+    overflow: hidden;
+    margin: 90px 12% 60px 12%;
+}
+
+.extras {
+    float: left;
+}
+
+#institucional, #ajuda, #atendimento, #pagamento {
+    margin-right: 5%;
+}
+
+#extras a {
+    font: 300 12px/32px Lato;
+    letter-spacing: 1.2px;
+}
+
+#atendimento p {
+    font: 300 12px/27px Lato;
+    letter-spacing: 1.2px;
+}
+
+#line1 {
+    overflow: hidden;
+}
+
+#payment1 {
+    height: 20px;
+    width: 47px;
+    background-image: url('../imgs/visa.png');
+    background-size: cover;
+    border: none;
+
+    float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#payment2 {
+    height: 40px;
+    width: 50px;
+    background-image: url('../imgs/master.png');
+    background-size: cover;
+    border: none;
+
+    float: left;
+}
+
+#payment3 {
+    height: 32px;
+    width: 50px;
+    background-image: url('../imgs/3.svg');
+    background-size: initial;
+    background-repeat: no-repeat;
+    border: none;
+
+    float: left;
+    margin-top: 9px;
+    margin-left: 20px;
+}
+
+#line2{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#payment4 {
+    height: 25px;
+    width: 50px;
+    background-image: url('../imgs/boleto.png');
+    background-size: cover;
+    border: none;
+
+    float: left;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#payment5 {
+    height: 33px;
+    width: 44px;
+    background-image: url('../imgs/diners.png');
+    background-size: cover;
+    border: none;
+
+    float: left;
+    margin-top: 6px;
+    margin-right: 19px;
+}
+
+#payment6 {
+    height: 40px;
+    width: 44px;
+    background-image: url('../imgs/amex.png');
+    background-size: cover;
+    border: none;
+
+    float: left;
+}
+
+#security {
+    height: 67px;
+    width: 86px;
+    background-image: url('../imgs/let-s-encrypt-seeklogo.com.svg');
+    background-size: initial;
+    background-repeat: no-repeat;
+    border: none;
+
+    margin-top: 40px;
+}
+
+#rodape {
+    overflow: hidden;
+    text-align: center;
+
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+#rodape p {
+    display: inline-block;
+    /* margin-top: 30px; */
+
+    text-transform: none;
+    font: 300 10px/16px Lato;
+    letter-spacing: 1px;
+}
+
+.socialmedia {
+    float: left;
+    margin-right: 30px;
+
+    height: 22px;
+    width: 22px;
+
+    background-size: cover;
+    border: none;
+}
+
+#facebook {
+    margin-left: 12%;
+
+    background-image: url('../imgs/facebook.png');
+}
+
+#instagram {
+    background-image: url('../imgs/instagram.png');
+}
+
+#twitter {
+    width: 24px;
+    background-image: url('../imgs/twitter.png');
+}
+
+#econverse {
+    height: 40px;
+    width: 89px;
+    background-image: url('../imgs/econverse.png');
+    background-size: cover;
+    border: none;
+
+    float: right;
+}
+
+#vtex {
+    height: 30px;
+    width: 84px;
+    background-image: url('../imgs/VTEX_black_CMYK.svg');
+    background-size: cover;
+    border: none;
+
+    float: right;
+    margin-left: 30px;
+    margin-right: 12%;
+}
